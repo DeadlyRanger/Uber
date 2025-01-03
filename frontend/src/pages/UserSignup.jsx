@@ -33,6 +33,8 @@ const UserSignup = () => {
     }
 
     const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/users/register`, newUser)
+    .then(console.log("Regiter ke liye beja"))
+    .catch(err => console.log("Failed to register: ",err))
 
     if (response.status === 201) {
       const data = response.data

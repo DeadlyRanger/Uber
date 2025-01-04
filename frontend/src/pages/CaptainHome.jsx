@@ -104,7 +104,7 @@ const CaptainHome = () => {
         <div className='h-screen'>
             <div className='fixed top-0 flex items-center justify-between w-screen p-6'>
                 <img className='w-16' src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="" />
-                <Link to='/captain-home' className='flex items-center justify-center w-10 h-10 bg-white rounded-full '>
+                <Link to='/login' className='flex items-center justify-center w-10 h-10 bg-white rounded-full '>
                     <i className="text-lg font-medium ri-logout-box-r-line"></i>
                 </Link>
             </div>
